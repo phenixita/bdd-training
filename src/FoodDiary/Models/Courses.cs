@@ -1,4 +1,4 @@
-namespace FoodDiary.TDD
+namespace FoodDiary.Models
 {
     public class Courses
     {

@@ -1,5 +1,9 @@
 using System.Linq.Expressions;
 
+using FoodDiary.Models;
+using FoodDiary.Repositories;
+using FoodDiary.Services.FoodDiary;
+
 namespace FoodDiary.TDD;
 
 public class FoodDiaryRequirements

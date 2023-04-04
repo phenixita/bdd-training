@@ -1,4 +1,7 @@
-namespace FoodDiary.TDD
+using FoodDiary.Models;
+using FoodDiary.Repositories;
+
+namespace FoodDiary.Services.FoodDiary
 {
     public class FoodDiaryService : IFoodDiaryService
     {
@@ -11,7 +14,7 @@ namespace FoodDiary.TDD
 
         public async Task addMeal(Meal meal)
         {
-            await this.repo.create(meal);
+            await repo.create(meal);
         }
     }
 }

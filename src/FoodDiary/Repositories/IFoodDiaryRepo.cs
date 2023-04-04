@@ -1,4 +1,6 @@
-namespace FoodDiary.TDD
+using FoodDiary.Models;
+
+namespace FoodDiary.Repositories
 {
     public interface IFoodDiaryRepo
     {
