@@ -12,18 +12,19 @@ public class FoodDiaryRequirements
     public async void ShouldAllowToAddNewMealToTheList()
     {
         // Arrange
-        var meal = new Meal(default, default, default);
-        var repoMock = new Mock<IFoodDiaryRepo>();
-        Expression<Func<IFoodDiaryRepo, Task<int>>> createExp = m => m.create(meal);
-        repoMock.Setup(createExp);
-        IFoodDiaryService service = new FoodDiaryService(repoMock.Object);
+        Meal meal = FoodDiaryRequirementsSteps.givenANewMeal();
+        Mock<IFoodDiaryRepo> repoMock;
+        Expression<Func<IFoodDiaryRepo, Task<int>>> createExp;
+        FoodDiaryRequirementsSteps.givenTheRepositoryFoodDiaryMock(meal, out repoMock, out createExp);
+        IFoodDiaryService service = FoodDiaryRequirementsSteps.givenTheServiceIsReady(repoMock);
 
         // Act
-        await service.addMeal(meal);
+        await FoodDiaryRequirementsSteps.whenTheMealIsAdded(meal, service);
 
         // Assert
-        repoMock.Verify(createExp, Times.Once());
+        FoodDiaryRequirementsSteps.thenTheRepoContainsTheNewMeal(repoMock, createExp);
     }
+
 
     class ExpectedMeal
     {
