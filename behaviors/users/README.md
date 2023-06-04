@@ -15,12 +15,12 @@ Using the power of BDD tools (e.g. `Cucumber`), such acceptance criteria will re
 
 ## In a nutshell
 
-The `Agile requirements` has the following properties:
+The `Agile requirements` (AR) has the following properties:
 
 - they are small
 - they are generic
 - they are flexible
 
-It is not a comeback to the waterfall `User Requirement Specifications`, on the contrary, it «only» defines a common way of formalizing the «intent»: it only allows everyone to write down what they are designing, encouraging collaboration.
+It is not a comeback to the waterfall `User Requirement Specifications`, on the contrary, AR «only» defines a common way of formalizing the «intent»: they allows everyone to write down what they are designing, encouraging collaboration.
 
 Moreover, it will automatically produce code useful to create the application in TDD and ensuring an high quality and clean code application.
