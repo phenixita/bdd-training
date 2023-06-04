@@ -1,8 +1,8 @@
 # Users behaviors
 
-*Users behaviors* are intended to describe the acceptance criteria of the user needs in an «ubiquitous» language, comprehensible to all the software development involved people.
+*Users behaviors* are intended to describe the acceptance criteria of the user needs in an «ubiquitous» language, comprehensible to everyone involved in software development.
 
-Fulfilling the BDD framework you will create small, dynamic, flexible and easy to understand acceptance criteria. In this way you could *fix* the «requirements» word meaning, we will define them `Agile Requirements`.
+Fulfilling the BDD framework you will create acceptance criteria that are small, dynamic, flexible and easy to understand. This way, you could *fix* the «requirements» word meaning, we will define them `Agile Requirements`.
 
 Such *high flexible acceptance criteria* will be used to design and develop the software.
 
