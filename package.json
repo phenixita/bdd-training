@@ -1,0 +1,26 @@
+{
+  "name": "bdd-training",
+  "version": "0.0.0",
+  "description": "Repository used for BDD training",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solid-bases/bdd-training.git"
+  },
+  "author": "solid-bases",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solid-bases/bdd-training/issues"
+  },
+  "homepage": "https://github.com/solid-bases/bdd-training#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2"
+  }
+}
