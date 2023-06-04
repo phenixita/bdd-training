@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cucumber": "cucumber-js"
+    "cucumber": "cucumber-js",
+    "build": "npm run cucumber"
   },
   "repository": {
     "type": "git",

@@ -12,3 +12,15 @@ Using the power of BDD tools (e.g. `Cucumber`), such acceptance criteria will re
 - TDD approach, with auto-generated code, starting from the behaviors
 - auto-generated documentation, in natural language, that could provide screenshots and data examples
 - a behavior database, that if properly created, could result in high functionalities and code recyclability.
+
+## In a nutshell
+
+The `Agile requirements` has the following properties:
+
+- they are small
+- they are generic
+- they are flexible
+
+It is not a comeback to the waterfall `User Requirement Specifications`, on the contrary, it «only» defines a common way of formalizing the «intent»: it only allows everyone to write down what they are designing, encouraging collaboration.
+
+Moreover, it will automatically produce code useful to create the application in TDD and ensuring an high quality and clean code application.

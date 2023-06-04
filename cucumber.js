@@ -4,6 +4,6 @@ module.exports = {
     language: "it",
     paths: ["behaviors/**/*.{feature,feature.md}"],
     publishQuiet: true,
-    format: ["html:reports/cucumber-report.html"],
+    format: ["progress", "html:reports/cucumber-report.html"],
   },
 };
