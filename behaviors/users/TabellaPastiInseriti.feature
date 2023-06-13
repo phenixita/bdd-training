@@ -24,6 +24,9 @@ Per poter consultare i dati dei pasti inseriti
 
   Scenario: Alimenti del pasto nella tabella
   ![Alimenti pasto](../behaviors/users/alimenti_pasto.png)
+  - pasta integrale 100g
+  - formaggio 25g
+  - zucchine 150g
     Dati i seguenti pasti
       | data       | ora   | tipo di pasto | lista alimenti                                     |
       | 10/03/2023 | 13:05 | pranzo        | pasta integrale 100g, formaggio 25g, zucchine 150g |

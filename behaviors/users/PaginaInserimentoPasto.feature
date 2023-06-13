@@ -9,6 +9,7 @@ Per poter salvare i dati del pasto effettuato
 # step induttivo 1: di cosa ho bisogno?
 
   Scenario: Salvataggio dei dati del pasto
+    #Dato un pasto completo
     Quando salvo il pasto
     Allora il nuovo pasto conterrà tutti i dati
     # step induttivo 2: cos'è "pasto"?
@@ -26,7 +27,7 @@ Per poter salvare i dati del pasto effettuato
   Scenario: Inserimento dati del pasto
     Data la pagina di inserimento del pasto
     Quando visito la pagina
-    Allora vengono visulizzati i campi per inserire i dati del pasto
+    Allora vengono visualizzati i campi per inserire i dati del pasto
     # ma posso anche definire questo ubiquitous language: campi di inserimento = form
 
   Scenario: Inserimento dati del pasto - ALTERNATIVO
