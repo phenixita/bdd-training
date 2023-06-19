@@ -23,7 +23,7 @@ Per poter consultare i dati dei pasti inseriti
 # step deduttivo 3: cosa succede per gli alimenti di uno stesso pasto?
 
   Scenario: Alimenti del pasto nella tabella
-  ![Alimenti pasto](../behaviors/users/alimenti_pasto.png)
+  ![Alimenti pasto](../features/users/alimenti_pasto.png)
   - pasta integrale 100g
   - formaggio 25g
   - zucchine 150g

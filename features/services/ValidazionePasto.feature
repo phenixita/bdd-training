@@ -28,7 +28,7 @@ Regola: Pasto non valido
     Quando viene effettuata la verifica dei dati del pasto
     Allora il processo viene interrotto con l'errore NotValidException e messaggio "missing mealKind"
 
-  Scenario: Pasto senza mealKind
+  Scenario: Pasto senza foodList
     Dato il pasto senza foodList
     Quando viene effettuata la verifica dei dati del pasto
     Allora il processo viene interrotto con l'errore NotValidException e messaggio "missing foodList"

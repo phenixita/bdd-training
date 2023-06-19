@@ -1,4 +1,4 @@
-import { Given, IWorld, When } from "@cucumber/cucumber";
+import { IWorld, When } from "@cucumber/cucumber";
 
 When("salvo il pasto", pending);
 

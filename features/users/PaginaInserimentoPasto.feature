@@ -5,7 +5,6 @@ Voglio una pagina di inserimento pasti
 Per poter salvare i dati del pasto effettuato
 
 > Nota: la funzionalità viene descritta usando il metodo induttivo, partendo quindi dal need
-# ricordarsi, alla fine, di aggiungere nella descrizione indicazione che il pulsante di apertura è nella tabella (?)
 # step induttivo 1: di cosa ho bisogno?
 
   Scenario: Salvataggio dei dati del pasto
