@@ -23,5 +23,8 @@
   "homepage": "https://github.com/solid-bases/bdd-training#readme",
   "devDependencies": {
     "@cucumber/cucumber": "^9.1.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

@@ -2,6 +2,9 @@
 Funzionalità: Salvataggio del pasto
 Definizione dell'endpoint che consente il salvataggio del pasto.
 
+  Contesto: 
+    Data la web API "/api/meal" con il metodo "POST" esistente
+
   Scenario: Salvataggio andato a buon fine
     Dato il pasto contenente i seguenti dati
       | Name        | Value                                                        | Type                                                                   |
