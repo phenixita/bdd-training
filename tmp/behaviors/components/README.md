@@ -1,3 +1,0 @@
-# Components behaviors
-
-TBD
